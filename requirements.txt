@@ -1,0 +1,14 @@
+black
+fastapi
+fastapi-pagination
+flake8
+matplotlib 
+nltk
+pandas 
+pydantic
+pytest
+python-dotenv
+requests
+scikit-learn
+starlette
+uvicorn

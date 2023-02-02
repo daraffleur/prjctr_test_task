@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+
+  api:
+    build: .
+    command: bash ./start_server.sh
+    env_file:
+      - .sample.env
+    volumes:
+      - .:/app
+    ports:
+      - 127.0.0.1:${SERVER_PORT}:8089
